@@ -1,3 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Firmware/build artifacts
 *.elf
 *.bin
-__pycache__/
+*.hex
+
+# Windows metadata
+*:Zone.Identifier
+
+# Environment/secrets
+.env
